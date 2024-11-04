@@ -1,0 +1,106 @@
+/* contact/static/css/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff; /* Bootstrap Primary Blue */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.message-box {
+    text-align: left;
+}
+
+.message-box label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block; /* Ensure the label is on a new line */
+}
+
+.message-box textarea {
+    height: 100px; /* Set the height for the textarea */
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #28a745; /* Green for success button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* contact/static/css/styles.css */
+
+.form-control {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; /* Full width for better responsiveness */
+}
