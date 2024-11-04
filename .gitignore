@@ -1,0 +1,19 @@
+# .gitignore
+
+# Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.env
+
+# SQLite database
+db.sqlite3
+
+# Media files
+media/
+
+# IDE specific files
+.vscode/
+.idea/
